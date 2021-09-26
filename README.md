@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Art Festival 2021
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you  :
+• can buy any exclusive artpiece
+• you will get any  information about any art
+• by click on button you can add your product
 
 ### `npm start`
 
