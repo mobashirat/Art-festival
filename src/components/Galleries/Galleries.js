@@ -3,11 +3,11 @@ import { useState } from 'react/cjs/react.development';
 import Cart from '../Cart/Cart';
 import Painting from '../Painting/Painting';
 
-
+// for paintings
 const Galleries = () => {
     const [paintings, setPaintings] = useState([])
     const [cart, setCart] = useState([])
-
+    // for eventhandler
     const handleCart = (painting) => {
         const newCart = [...cart, painting]
 
@@ -24,6 +24,7 @@ const Galleries = () => {
 
     return (
         <div>
+            {/* painting */}
             <div className="row">
                 <div className="col-md-9">
                     <div className="row">
@@ -37,6 +38,7 @@ const Galleries = () => {
                         }
                     </div>
                 </div>
+                {/* cart */}
                 <div className="col-md-3">
                     <Cart
                         cart={cart}>

@@ -1,0 +1,21 @@
+.cart-color{
+    color: white;
+    margin-top: 10px;
+   padding-left: 10px;
+
+}
+.cart-design{
+   box-sizing: border-box;
+   position: fixed;
+   margin: 10px;
+   width: 250px;
+   height: 200px;
+   box-shadow: 10px 10px 10px rgba(160, 158, 154, 0.808);
+  border :1px solid white
+
+}
+.name-show {
+    color: white;
+   
+    font-size: 30px;
+}

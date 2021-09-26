@@ -1,8 +1,14 @@
 .header{
-    background-color: lightsteelblue;
+    background-color: rgb(20, 14, 14);
     line-height: 50px;
     margin-bottom: 10px;
+    color: white;
+    text-align: center;
 }
-.header h3{
-    padding-bottom: 10px;
+.color{
+    color:goldenrod ;
+}
+.total-exbition{
+    color: darkgoldenrod;
+    font-size: 50px;
 }

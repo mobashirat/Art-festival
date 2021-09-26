@@ -5,28 +5,24 @@ const Painting = (props) => {
     const { name, artist, price, img, year, location } = props.painting
     return (
         <div className="col-md-4">
-            <div class="card mb-3" style={{
-                "max-width":
-                    "540px"
-            }}>
-                <div class="row g-0">
-                    <div class="col-md-5">
-                        <img src={img} class="img-fluid img-size" alt="..." />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h6 class="card-title">Name: {name}</h6>
-                            <p class="card-text">Artist: {artist}</p>
-                            <p>Location : {location}</p>
-                            <p class="card-text"> Year: {year}</p>
-                            <h6>Price: ${price}million</h6>
-                            <button onClick={() => props.handleCart(props.painting)}
-                            ><i class="fas fa-shopping-cart"></i>add to cart</button>
 
-                        </div>
-                    </div>
+            <div class="card card-style" style={{ "width": "20 rem" }}>
+                <img src={img} class="card-img-top" alt="..." />
+                <div class="card-body bg-dark text-light">
+                    <h5 class="card-title ">Name: {name}</h5>
+                    <p class="card-text">Artist: {artist}</p>
+                    <p>Year: {year}</p>
+                    <p>Location: {location}</p>
+                    <p>Price: ${price}M</p>
+
+                    <button class="bg-danger text-light" onClick={() => props.handleCart(props.painting)}
+                    ><i class="fas fa-shopping-cart"></i> add to cart</button>
                 </div>
+
+
             </div>
+
+
 
         </div>
     );
