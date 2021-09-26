@@ -1,6 +1,6 @@
 # Art Festival 2021
 
-This project was bootstrapped with [Create React App](https://musing-easley-98ca62.netlify.app/).
+This project was bootstrapped with [Art Festival](https://musing-easley-98ca62.netlify.app/).
 
 ## Available Scripts
 
