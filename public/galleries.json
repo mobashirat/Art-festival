@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Mona Lisa",
+        "artist": "Leonardo da Vinci",
+        "location": "Louvre Museum",
+        "price": 100,
+        "year": 1797,
+        "img": "./cardimage/Mona_Lisa.png"
+    },
+    {
+        "id": 2,
+        "name": "The Starry Night",
+        "artist": "Vincent van Gogh",
+        "location": "The Museum of Modern art",
+        "price": 850,
+        "year": 1889,
+        "img": "./cardimage/starrynight.png"
+    },
+    {
+        "id": 3,
+        "name": "Impression Sunrise",
+        "artist": "Cloude Monet",
+        "location": "Musee Marmottan Monet",
+        "price": 700,
+        "year": 1872,
+        "img": "./cardimage/impression.png"
+    },
+    {
+        "id": 4,
+        "name": "Guernica",
+        "artist": "Pablo Picasso",
+        "location": "Paris",
+        "price": 200,
+        "year": 1937,
+        "img": "./cardimage/guernicca.png"
+    },
+    {
+        "id": 5,
+        "name": "Girl with a Pearl earing",
+        "artist": "Johannes Vermeer",
+        "location": "Mauritshuis",
+        "price": 11,
+        "year": 1665,
+        "img": "./cardimage/a girl.png"
+    },
+    {
+        "id": 6,
+        "name": "The Last Supper",
+        "artist": "Leonardo da Vinci",
+        "location": "Santa Maria delle Grazie",
+        "price": 320,
+        "year": 1998,
+        "img": "./cardimage/supper.png"
+    },
+    {
+        "id": 7,
+        "name": "Whistlers Mother",
+        "artist": "James Abbott",
+        "location": "Louvre Abu Dhabi",
+        "price": 400,
+        "year": 1871,
+        "img": "./cardimage/a mother.png"
+    },
+    {
+        "id": 8,
+        "name": "The Garden of Earthy Delights",
+        "artist": "Hieronymous Bosch",
+        "location": "Museo Nacional del prado",
+        "price": 520,
+        "year": 1797,
+        "img": "./cardimage/garden.png"
+    },
+    {
+        "id": 9,
+        "name": "The Persistence of Memory",
+        "artist": "Jean-Honre",
+        "location": "The Wallace Collection",
+        "price": 340,
+        "year": 1767,
+        "img": "./cardimage/memory.png"
+    },
+    {
+        "id": 10,
+        "name": "Lady with Emrin",
+        "artist": "Lionardo da vinci",
+        "location": "National Museum in Krakaw",
+        "price": 330,
+        "year": 1498,
+        "img": "./cardimage/lady.png"
+    }
+]
